@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript(Ciclos)</title>
+    <title>Javascript(Promedio)</title>
 </head>
 <body>
+    <script src="./app.js"></script>
+    <div class="container">
+        <P>Promedio simple de un estudiante de sus 3 notas Cuatrimestrales</P>
+         <div class="form-group">
+             <label for="nota1">Nota 1</label>
+             <input type="text" class="form-control" name="nota1" id="nota1">
+         </div>
+         <div class="form-group">
+             <label for="nota1">Nota 2</label>
+             <input type="text" class="form-control" name="nota2" id="nota2">
+         </div>
+         <div class="form-group">
+             <label for="nota1">Nota 3</label>
+             <input type="text" class="form-control" name="nota3" id="nota3">
+         </div>
+         <span id="promedio">0</span>
+         <br><br>
+         <input type="button" value="Calcular" onclick="calcular_promedio('nota1 + nota2 + nota3'/3)"  >
+    </div>
 
-   <script src="./app.js"></script>
     
 </body>
 </html>
