@@ -1,11 +1,22 @@
+
+// 3. Ciclos/iteraciones
+ 
+// Grabación
+ 
+// DESAFÍO COMPLEMENTARIO
+// Crear un algoritmo utilizando un ciclo
+
 //Ciclo For
 
-//for (let i = 1; i <=10; i++) {
- //   console.log(`iteracion ${i}`)
+let cA = prompt("Ingrese un texto")
+let eA = parseInt(prompt("Indique cuantas veces quiere que se repita en pantalla"))
+
+for (let i = 1; i <=eA; i++) {
+   document.write(`iteracion ${cA} <br> `)
     
-//}
-//console.table(`Fin del ciclo`)
-//alert(`El ciclo llego a su fin`)
+}
+console.table(`Fin del ciclo`)
+alert(`El ciclo llego a su fin`)
 
 
 
@@ -27,16 +38,16 @@
 
 //algoritmo para obtener la edad promedio de un grupo de alumnos
 
-let cA = parseInt(prompt("Indique cuantos alumnos registrara"));
-let eA; // registro de las edades+
-let sA = 0; // acumulador
-let n; //ciclo
+//let cA = parseInt(prompt("Indique cuantos alumnos registrara"));
+//let eA; // registro de las edades+
+//let sA = 0; // acumulador
+//let n; //ciclo
 
-for(n=1;n<=cA;n++) {
-    eA = parseInt(prompt("Ingrese la edad del alumno "+n));
+// for(n=1;n<=cA;n++) {
+//     eA = parseInt(prompt("Ingrese la edad del alumno "+n));
 
-    sA = sA + eA;
-}
+//     sA = sA + eA;
+// }
 
-console.log(`El promedio de las edades de los ${cA} alumnos es: ${sA/cA}`);
-document.write344(`El promedio de las edades de los ${cA} alumnos es: ${sA/cA}`);
+// console.log(`El promedio de las edades de los ${cA} alumnos es: ${sA/cA}`);
+// document.write344(`El promedio de las edades de los ${cA} alumnos es: ${sA/cA}`);
