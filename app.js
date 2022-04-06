@@ -12,7 +12,7 @@ let cA = prompt("Ingrese un texto")
 let eA = parseInt(prompt("Indique cuantas veces quiere que se repita en pantalla"))
 
 for (let i = 1; i <=eA; i++) {
-   document.write(`Escribiste: " ${cA} " <br> `)
+   document.write(`Escribiste: " ${cA} "ho <br> `)
     
 }
 console.alert(`El ciclo llego a su fin`)
