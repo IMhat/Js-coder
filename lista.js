@@ -72,3 +72,37 @@ newProducto.addEventListener("keypress",(event) => {
         newProducto.value = "";
     }
 })
+
+
+
+// ARRAYS
+
+//creamos el array
+let array = []; 
+
+//recorremos el array
+for(let i =1;i<=10;i++){
+    array.push(i);
+}
+
+console.log(array)
+
+//Mostramos el array
+
+
+
+//  
+
+function getRandomInt(min, max) {
+
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+
+let array2 = []; 
+
+//recorremos el array
+for(let i =1;i<=10;i++){
+    array2.push(getRandomInt(1, 100));
+}
+
+console.log(array2)
